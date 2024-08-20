@@ -16,6 +16,7 @@
 		7077AC942C74ECAE000AAA61 /* travelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077AC932C74ECAE000AAA61 /* travelTests.swift */; };
 		7077AC9E2C74ECAE000AAA61 /* travelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077AC9D2C74ECAE000AAA61 /* travelUITests.swift */; };
 		7077ACA02C74ECAE000AAA61 /* travelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077AC9F2C74ECAE000AAA61 /* travelUITestsLaunchTests.swift */; };
+		7077ACAD2C74F3AA000AAA61 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077ACAC2C74F3AA000AAA61 /* TripDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7077AC992C74ECAE000AAA61 /* travelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7077AC9D2C74ECAE000AAA61 /* travelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelUITests.swift; sourceTree = "<group>"; };
 		7077AC9F2C74ECAE000AAA61 /* travelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7077ACAC2C74F3AA000AAA61 /* TripDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				7077AC7D2C74ECAD000AAA61 /* travelApp.swift */,
 				7077AC7F2C74ECAD000AAA61 /* ContentView.swift */,
+				7077ACAC2C74F3AA000AAA61 /* TripDetailView.swift */,
 				7077AC812C74ECAE000AAA61 /* Assets.xcassets */,
 				7077AC862C74ECAE000AAA61 /* Persistence.swift */,
 				7077AC882C74ECAE000AAA61 /* travel.xcdatamodeld */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7077ACAD2C74F3AA000AAA61 /* TripDetailView.swift in Sources */,
 				7077AC872C74ECAE000AAA61 /* Persistence.swift in Sources */,
 				7077AC8A2C74ECAE000AAA61 /* travel.xcdatamodeld in Sources */,
 				7077AC802C74ECAD000AAA61 /* ContentView.swift in Sources */,
